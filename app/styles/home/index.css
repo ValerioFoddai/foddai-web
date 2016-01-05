@@ -1,7 +1,16 @@
-$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
+
+/* Menu */
+
+.navbar-default {
+    background-color: #272727;
+    border-color: #e7e7e7;
+}
+
+
+
+
+
+
 
 .browsehappy {
   margin: 0.3em 0;

@@ -2,12 +2,33 @@
 /* Menu */
 
 .navbar-default {
-    background-color: #272727;
-    border-color: #e7e7e7;
+  background-color: #272727; 
+  height: 51px;
+}
+.navbar-nav {
+  margin: 0px -15px;
+  background-color: #272727;
+}
+.page-scroll {
+  text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+  color: red;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  font-weight: bold;
 }
 
 
-
+.test01 {
+  height: 300px;
+  width: 100%;
+  float: left;
+  background-color: black;
+  color: black;
+}
 
 
 
@@ -73,28 +94,5 @@ body {
 
   p + h4 {
     margin-top: 28px;
-  }
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
   }
 }

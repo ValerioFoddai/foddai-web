@@ -2,11 +2,9 @@
 /* Menu */
 
 .navbar-default {
-    background-color: #272727;
-    border-color: #e7e7e7;
+  background-color: #272727;
+  border-color: #e7e7e7;
 }
-
-
 .navbar-nav {
   margin: 0px -15px;
   background-color: #272727;
@@ -24,18 +22,26 @@
 }
 
 
-.test01 {
-  height: 300px;
-  width: 100%;
-  float: left;
-  background-color: black;
-  color: black;
+/* Footer */
+.footer {
+    padding: 2em 0px;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    font-size: 1em;
+    color: #aaa;
+}
+.footer a {
+    color: #aaa;
+    margin: 0 1em;
+}
+.footer p {
+    margin-top: 20px;
 }
 
 
 
-
-
+/* Old Site */
 .browsehappy {
   margin: 0.3em 0;
   background: #ccc;
@@ -69,12 +75,6 @@ body {
   }
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
 
 .container-narrow > hr {
   margin: 30px 0;
